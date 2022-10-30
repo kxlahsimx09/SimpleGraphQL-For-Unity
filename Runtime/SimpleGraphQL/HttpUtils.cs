@@ -70,7 +70,8 @@ namespace SimpleGraphQL
                 downloadHandler = new DownloadHandlerBuffer(),
                 disposeCertificateHandlerOnDispose = true,
                 disposeDownloadHandlerOnDispose = true,
-                disposeUploadHandlerOnDispose = true
+                disposeUploadHandlerOnDispose = true,
+                timeout = 10
             })
             {
                 if (authToken != null)
