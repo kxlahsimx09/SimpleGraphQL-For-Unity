@@ -71,7 +71,7 @@ namespace SimpleGraphQL
                 disposeCertificateHandlerOnDispose = true,
                 disposeDownloadHandlerOnDispose = true,
                 disposeUploadHandlerOnDispose = true,
-                timeout = 10
+                timeout = 30
             })
             {
                 if (authToken != null)
