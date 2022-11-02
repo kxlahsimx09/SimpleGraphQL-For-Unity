@@ -105,7 +105,7 @@ namespace SimpleGraphQL
 #if UNITY_2020_2_OR_NEWER
                 if (webRequest.result != UnityWebRequest.Result.Success)
                 {
-                    throw new UnityWebRequestException(webRequest);
+                    //throw new UnityWebRequestException(webRequest);
                 }
 #elif UNITY_2019_4
                 if (webRequest.isNetworkError || webRequest.isHttpError)
